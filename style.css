@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+/* Styles communs à tous les écrans */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid grey;
+    padding: 10px 0;
+}
+
+nav h1{
+    color: grey;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0;
+}
+
+nav .onglets{
+    margin-left: 50px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease-in-out;
+}
+
+nav .onglets a:hover {
+    border-bottom-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(22, 22, 22);
+    background-image: url('images/maths.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    margin: 0;
+}
+
+header h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: 0;
+}
+
+header h5{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 5px;
+    margin: 0;
+}
+
+.main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.main .content .card{
+    flex: 0 0 100%;
+    padding: 20px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+.main .content .card.right{
+    flex: 0 0 100%;
+}
+
+.main .content .card .right img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+footer .msg {
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: 0;
+}
+
+.main .content .card .middle{
+    flex: 100%;
+    padding: 30px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+/* Media queries pour différents types d'écrans */
+
+/* Pour les écrans jusqu'à 480px de large */
+@media (max-width: 480px) {
+    nav .onglets {
+        margin-left: 0;
+    }
+    
+    header h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+    
+    header h4, header h5 {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .main h1 {
+        font-size: 24px;
+        padding: 10px;
+    }
+    
+    .main .content .card, .main .content .card.right {
+        padding: 10px;
+    }
+    
+    .main .content .card .right img {
+        margin-top: 10px;
+    }
+    
+    footer .msg {
+        font-size: 12px;
+        padding: 10px;
+        margin-top: -10px;
+    }
+}
+
+/* Pour les écrans de 481px à 768px de large */
+@media (min-width: 481px) and (max-width: 768px) {
+    nav .onglets {
+        margin-left: 30px;
+    }
+    
+    header h1 {
+        font-size: 35px;
+        padding: 15px;
+    }
+    
+    header h4, header h5 {
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    .main h1 {
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    .main .content .card, .main .content .card.right {
+        flex: 0 0 70%;
+        padding: 15px;
+    }
+    
+    .main .content .card .right img {
+        margin-top: 10px;
+    }
+    
+    footer .msg {
+        font-size: 14px;
+        padding: 15px;
+        margin-top: -15px;
+    }
+}
+
+section {
+    height: 100vh; /* Hauteur de la section égale à la hauteur de la fenêtre */
+    width: 100%; /* Largeur de la section égale à la largeur de la fenêtre */
+    position: relative; /* Position relative pour permettre un positionnement absolu des éléments enfants */
+}
+
+.slide img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.slide img:hover {
+    transform: scale(1.1);
+}
+
+.slide {
+    transition: opacity 0.5s ease-in-out;
+  }
