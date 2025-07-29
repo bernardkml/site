@@ -12,6 +12,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- CSS personnalisé -->
     <link rel="stylesheet" href="style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VOTREID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VOTREID');
+    </script>
 </head>
 <body>
     <!-- Hero Section -->
@@ -19,7 +26,7 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <span class="hero-badge">Data Science • Mathématiques • Economie</span>
-            <h1 class="hero-title">Bernard Kamaleu</h1>
+            <h1 class="hero-title">Bernard</h1>
             <div class="d-flex flex-wrap justify-content-center">
                 <a href="#expertise" class="btn btn-primary hero-btn">Découvrir mon parcours</a>
                 <a href="mailto:bernardhermann.kamaleu@gmail.com" class="btn btn-outline-light hero-btn"><i class="far fa-envelope me-2"></i>bernardhermann.kamaleu@gmail.com</a>
@@ -34,8 +41,7 @@
     <section id="expertise" class="section">
         <div class="container">
             <div class="text-center mb-5">
-                <h2 class="section-title">Double Expertise</h2>
-                <p class="section-subtitle">Une approche unique combinant rigueur scientifique et gestion de crise</p>
+                <h2 class="section-title">Compétences</h2>
             </div>
             
             <div class="row">
@@ -45,7 +51,7 @@
                             <i class="fas fa-chart-bar"></i>
                         </div>
                         <h3>Data Science</h3>
-                        <p>Analyse de données, machine learning et visualisation pour transformer les données en insights exploitables.</p>
+                        <p>Analyse de données, machine learning et visualisation pour transformer les données.</p>
                         <div class="skill-tags">
                             <span class="skill-tag">Python</span>
                             <span class="skill-tag">Pandas</span>
@@ -76,7 +82,7 @@
                             <i class="fas fa-water"></i>
                         </div>
                         <h3>Sauvetage Aquatique</h3>
-                        <p>BNSSA et expertise en surveillance de plages, alliant sécurité et gestion des risques.</p>
+                        <p>BNSSA et surveillance de plages, alliant sécurité et gestion des risques.</p>
                         <div class="skill-tags">
                             <span class="skill-tag">BNSSA</span>
                             <span class="skill-tag">Premiers secours</span>
@@ -92,7 +98,7 @@
                             <i class="fas fa-code"></i>
                         </div>
                         <h3>Développement</h3>
-                        <p>Programmation et développement d'outils d'analyse avec diverses technologies.</p>
+                        <p>Programmation et développement.</p>
                         <div class="skill-tags">
                             <span class="skill-tag sunset">Python</span>
                             <span class="skill-tag sunset">C/C++</span>
@@ -100,22 +106,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-6 col-lg-4 mb-4">
-                    <div class="skill-card">
-                        <div class="skill-icon ocean">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Visualisation de Données</h3>
-                        <p>Création de tableaux de bord et visualisations impactantes pour la prise de décision.</p>
-                        <div class="skill-tags">
-                            <span class="skill-tag">Matplotlib</span>
-                            <span class="skill-tag">Power BI</span>
-                            <span class="skill-tag">Excel</span>
-                        </div>
-                    </div>
-                </div>
-                
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="skill-card">
                         <div class="skill-icon sunset">
@@ -213,7 +203,7 @@
                             <div class="exp-company">Notre-Dame de Clignancourt</div>
                             <div class="exp-meta">
                                 <span>En cours</span>
-                                <span>Paris</span>
+                                <span>Paris, 18ème Arr.</span>
                             </div>
                         </div>
                         <div class="exp-body">
@@ -222,7 +212,6 @@
                                 <span class="exp-tag">Bénévolat</span>
                                 <span class="exp-tag">Enseignement</span>
                                 <span class="exp-tag">Solidarité</span>
-                                <span class="exp-tag">Informatique</span>
                             </div>
                         </div>
                     </div>
@@ -256,7 +245,7 @@
                         <div class="progress-item">
                             <div class="progress-label">
                                 <span>Anglais</span>
-                                <span>75%</span>
+                                <span>70%</span>
                             </div>
                             <div class="progress-bar">
                                 <div class="progress-fill accent" style="width: 75%"></div>
@@ -327,57 +316,6 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-lg-6 mb-4">
-                    <div class="map-card">
-                        <h3 class="text-center mb-4">Carte d'Engagement</h3>
-                        <p class="text-center text-muted mb-4">Lieux marquants de mon parcours professionnel et personnel</p>
-                        
-                        <div class="map-container">
-                            <img src="assets/France_location_map.svg.png" alt="Carte de France" class="france-map">
-                            
-                            <!-- Paris Marker -->
-                            <div class="map-marker primary" style="top: 30%; left: 45%;" data-title="Paris" data-desc="Formation & Engagement - Licence de Mathématiques et association Notre-Dame de Clignancourt"></div>
-                            
-                            <!-- Bordeaux Marker -->
-                            <div class="map-marker accent" style="top: 50%; left: 40%;" data-title="Montflanquin/Bordeaux" data-desc="Maître-Nageur Sauveteur - Surveillance de plages et sauvetage aquatique"></div>
-                            
-                            <!-- Saint-Denis Marker -->
-                            <div class="map-marker ocean" style="top: 28%; left: 48%;" data-title="Saint-Denis" data-desc="Professeur Assistant - Enseignement des mathématiques (2022)"></div>
-                            
-                            <!-- Murol Marker -->
-                            <div class="map-marker accent" style="top: 45%; left: 50%;" data-title="Lac Chambon, Murol" data-desc="Première expérience - Premier sauvetage - où la théorie rencontre l'urgence"></div>
-                            
-                            <!-- Tooltip -->
-                            <div class="map-tooltip">
-                                <div class="d-flex align-items-center gap-2 mb-2">
-                                    <i class="fas fa-map-marker-alt text-accent"></i>
-                                    <span class="badge bg-light text-dark" id="tooltip-type"></span>
-                                </div>
-                                <h4 class="fw-bold mb-1" id="tooltip-title"></h4>
-                                <p class="text-muted mb-0" id="tooltip-desc"></p>
-                            </div>
-                        </div>
-                        
-                        <div class="map-legend">
-                            <div class="legend-item">
-                                <div class="legend-color" style="background-color: var(--primary);"></div>
-                                <span class="legend-label">Formation</span>
-                            </div>
-                            <div class="legend-item">
-                                <div class="legend-color" style="background-color: var(--accent);"></div>
-                                <span class="legend-label">Expérience</span>
-                            </div>
-                            <div class="legend-item">
-                                <div class="legend-color" style="background-color: var(--ocean);"></div>
-                                <span class="legend-label">Certification</span>
-                            </div>
-                            <div class="legend-item">
-                                <i class="fas fa-heart text-accent"></i>
-                                <span class="legend-label">Engagement</span>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -388,7 +326,7 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="section-title">Formation & Objectifs</h2>
-                <p class="section-subtitle">Parcours académique en cours - spécialisation en mathématiques appliquées</p>
+                <p class="section-subtitle">Parcours académique en cours</p>
             </div>
             
             <div class="row">
@@ -398,10 +336,9 @@
                             <i class="fas fa-graduation-cap"></i>
                         </div>
                         <h3>Licence de Mathématiques</h3>
-                        <p>Formation fondamentale en mathématiques - Diplôme prévu courant 2026</p>
+                        <p>Formation fondamentale en mathématiques</p>
                         <div class="formation-badges">
-                            <span class="formation-badge">En cours</span>
-                            <span class="formation-badge">2022-2026</span>
+                            <span class="formation-badge">2022-2025</span>
                         </div>
                     </div>
                 </div>
@@ -412,9 +349,9 @@
                             <i class="fas fa-chart-line"></i>
                         </div>
                         <h3>L3 MAEF 2025-2026</h3>
-                        <p>Mathématiques Appliquées et Économie-Finance</p>
+                        <p>Mathématiques Appliquées à l'Économie et la Finance</p>
                         <div class="formation-badges">
-                            <span class="formation-badge">Prévu</span>
+                            <span class="formation-badge">En cours</span>
                             <span class="formation-badge">2025-2026</span>
                         </div>
                     </div>
@@ -426,11 +363,11 @@
                             <i class="fas fa-code"></i>
                         </div>
                         <h3>Compétences Techniques</h3>
-                        <p>Développement progressif en programmation et analyse de données</p>
+                        <p>Développement en programmation et analyse de données</p>
                         <div class="formation-badges">
                             <span class="formation-badge">Python</span>
-                            <span class="formation-badge">C</span>
-                            <span class="formation-badge">Bash</span>
+                            <span class="formation-badge">C++</span>
+                            <span class="formation-badge">SQL</span>
                         </div>
                     </div>
                 </div>
@@ -470,7 +407,7 @@
                     <div class="timeline-dot experience"></div>
                     <div class="timeline-content right">
                         <div class="timeline-header">
-                            <span class="timeline-year">2022</span>
+                            <span class="timeline-year">2023</span>
                             <span class="timeline-type">Expérience</span>
                         </div>
                         <h3 class="timeline-title">Professeur Assistant</h3>
@@ -478,7 +415,6 @@
                         <div class="timeline-tags">
                             <span class="timeline-tag">Pédagogie</span>
                             <span class="timeline-tag">Statistiques</span>
-                            <span class="timeline-tag">Analyse numérique</span>
                         </div>
                     </div>
                 </div>
@@ -491,11 +427,12 @@
                             <span class="timeline-type">Formation</span>
                         </div>
                         <h3 class="timeline-title">Licence de Mathématiques</h3>
-                        <p class="timeline-description">Formation en mathématiques fondamentales et appliquées</p>
+                        <p class="timeline-description">Formation en mathématiques fondamentales</p>
                         <div class="timeline-tags">
-                            <span class="timeline-tag">Probabilités</span>
-                            <span class="timeline-tag">Statistiques</span>
+                            <span class="timeline-tag">Algèbre</span>
                             <span class="timeline-tag">Analyse</span>
+                            <span class="timeline-tag">Topologie</span>
+                            <span class="timeline-tag">Probabilités/Statistiques</span>
                         </div>
                     </div>
                 </div>
@@ -512,7 +449,6 @@
                         <div class="timeline-tags">
                             <span class="timeline-tag">Mathématiques financières</span>
                             <span class="timeline-tag">Économétrie</span>
-                            <span class="timeline-tag">Modélisation</span>
                         </div>
                     </div>
                 </div>
@@ -525,16 +461,16 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="contact-title">À Propos</h2>
-                <p class="contact-subtitle">Étudiant passionné par les mathématiques appliquées et le sauvetage aquatique. Cette vitrine présente mon parcours unique alliant rigueur scientifique et engagement humain.</p>
+                <p class="contact-subtitle">Étudiant passionné par les mathématiques. Cette vitrine présente mon parcours alliant rigueur scientifique et engagement humain.</p>
                 
                 <div class="contact-buttons">
                     <a href="mailto:bernardhermann.kamaleu@gmail.com" class="btn btn-primary contact-btn">
                         <i class="far fa-envelope me-2"></i>bernardhermann.kamaleu@gmail.com
                     </a>
-                    <a href="#" class="btn btn-outline-light contact-btn">
+                    <a href="https://github.com/bernardkml" class="btn btn-outline-light contact-btn">
                         <i class="fab fa-github me-2"></i>GitHub
                     </a>
-                    <a href="#" class="btn btn-outline-light contact-btn">
+                    <a href="www.linkedin.com/in/bernard-kamaleu" class="btn btn-outline-light contact-btn">
                         <i class="fab fa-linkedin-in me-2"></i>@bernard-kamaleu
                     </a>
                 </div>
