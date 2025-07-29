@@ -1,17 +1,15 @@
 # site
 
-# Portfolio Professionnel - Bernard Kamaleu
+# Portfolio - Bernard Kamaleu
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://bernardkml.github.io/site)
 
-Bienvenue sur mon portfolio professionnel ! Ce site présente mon parcours unique combinant expertise en mathématiques appliquées et compétences en sauvetage aquatique.
+Bienvenue sur mon site ! Ce site présente mon parcours.
 
 ## 🚀 Aperçu du site
 
-- **Double expertise** : Mathématiques appliquées et sauvetage aquatique
-- **Compétences techniques** : Data Science, Python, Analyse de données
-- **Parcours chronologique** : De la certification BNSSA à la spécialisation MAEF
-- **Carte interactive** : Visualisation de mon parcours géographique
+- **Compétence** : Mathématiques
+- **Développement** : Data Science, Python, Analyse de données
 
 ## 🔧 Technologies utilisées
 
@@ -24,17 +22,6 @@ Bienvenue sur mon portfolio professionnel ! Ce site présente mon parcours uniqu
 
 Le site est disponible en ligne à l'adresse :  
 [https://bernardkml.github.io/site](https://bernardkml.github.io/site)
-
-## 📂 Structure du projet
-site/
-├── index.html # Page principale
-├── style.css # Feuille de style
-├── script.js # JavaScript personnalisé
-├── assets/ # Dossier des ressources
-│ ├── christ.jpg # Image de fond
-│ └── France_location_map.svg.png # Carte de France
-└── README.md # Ce fichier
-
 
 ## 📬 Contact
 
