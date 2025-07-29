@@ -43,4 +43,4 @@ site/
 
 ---
 
-*Ce site est hébergé gratuitement sur GitHub Pages. Dernière mise à jour : 28 juillet 2025*
+*Ce site est hébergé gratuitement sur GitHub Pages. Dernière mise à jour : 29 juillet 2025*
